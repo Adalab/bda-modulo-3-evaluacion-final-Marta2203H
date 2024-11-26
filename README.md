@@ -44,3 +44,25 @@ Utilizamos gráficas de visualización para responder a las siguientes preguntas
 
     Distribución de los clientes según su estado civil y género:
         Visualizamos la relación entre el estado civil y el género de los clientes, con un countplot.
+
+**Fase 3:** Evaluación de Diferencias en Reservas de Vuelos por Nivel Educativo
+
+    Preparación de Datos:
+
+        Filtramos los datos para incluir únicamente las columnas relevantes: 'Flights Booked' y 'Education'.
+    
+    Análisis Descriptivo:
+
+        Agrupamos los datos por nivel educativo y se calcularon estadísticas descriptivas, como el promedio, la desviación estándar y los percentiles del número de vuelos reservados para cada grupo.
+
+    Prueba Estadística:
+
+        Sin realizar
+    
+**Herramientas y Librerías**
+
+    Pandas: Para la manipulación y análisis de datos.
+    Matplotlib y Seaborn: Para la visualización de datos.
+    Scipy: Para realizar pruebas estadísticas, como la prueba A/B.
+
+
